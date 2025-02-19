@@ -8,7 +8,7 @@ class Assignment extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'description', 'subject_id', 'due_date'];
+    protected $fillable = ['title', 'description', 'due_date', 'subject_id'];
 
     // Relación con la asignatura
     public function subject()
